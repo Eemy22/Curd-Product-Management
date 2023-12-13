@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body{
+    background-color: #668BC4;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.container h1,p{
+    text-align: center;
+}
+.input-container{
+    width: 80%;
+    margin: auto;
+
+}
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin: 3px;
+}
+.inbut-grup{
+    display: flex;
+}
+.Alldelete{
+    margin:20px 0;
+}
+.create {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    margin: 3px;
+    background-color:#335495 ;
+    color: white;
+}
+
+.create:hover{
+background-color: #A5BECF;
+}
+.btn button{
+    width: 45%;
+    border-radius: 5px;
+    border: none;
+   
+    padding: 10px;
+    margin: 3px;
+    background-color:#335495 ;
+    color: white;
+
+}
+.btn button:hover{
+    background-color: #A5BECF;
+    color: white;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+small{
+    background-color: #cb5f5f;
+    color: white;
+    width: 100%;
+    padding: 10px 5px;
+    border-radius: 5px;
+    margin: 3px;
+    
+    
+
+}
+small::before{
+    content: 'total:';
+}
+table{
+     width: 80%;
+     text-align: center;
+     margin: auto;
+     border-bottom: #335495 3px solid;
+     margin-top: 1rem;
+}
+table button{
+    background-color: #cb5f5f;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100%;
+}
+th{
+     border-block-end: #335495 3px solid;
+     border-top: #335495 3px solid;
+     background-color: #335495;
+     
+    
+}
